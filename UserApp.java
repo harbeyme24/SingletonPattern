@@ -14,7 +14,7 @@ public class UserApp {
         int queueNumberManuel = app.getNextQueueNumber();
         System.out.println("\nManuel's Queue Number: " + queueNumberManuel);
 
-        app.resetQueueNumber(25);
+        app.resetQueueNumber(24);
 
         app.logoutUser();
         System.out.println();
